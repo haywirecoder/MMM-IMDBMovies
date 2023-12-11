@@ -1,20 +1,18 @@
-# MMM-IMDBComingSoon
-The `IMDBComingSoon` module displays all the listed films in IMDBs comming Soon section for this month and next month.  It is similar to [MMM-MovieInfo](https://github.com/fewieden/MMM-MovieInfo) by [fewieden](https://github.com/fewieden), but has been rewitten to use IMDB instead of TheMovieDB and to remove the dependencies. 
+# MMM-IMDBMovies
+The `IMDBMovies` module displays all the listed films in IMDBs comming Soon section for this month and next month.  It is similar to [MMM-MovieInfo](https://github.com/fewieden/MMM-MovieInfo) by [fewieden](https://github.com/fewieden), but has been rewitten to use IMDB instead of TheMovieDB and to remove the dependencies. 
 
 **It is required** that you get an API key from the API proxy site [myapifilms.com](http://www.myapifilms.com/index.do), do so is easy and free (for less than 2000 requests per day).  Simply click on "Token" in the menu bar and follow the instructions.
-
-This version contain an updated graphic, layout and enchancement to the orginal module.
 
 ## Screenshot
 
 
-![IMDBComingSoon](/image/screenshot.png?raw=true)
+![IMDBMovies](/image/screenshot.png?raw=true)
 
 ## Installation
 
   1\. Execute the following commands from your `MagicMirror/modules` folder:
 ```bash
-git clone https://github.com/haywirecoder/MMM-IMDBComingSoon # clone this repository
+git clone https://github.com/haywirecoder/MMM-IMDBMovies # clone this repository
 ```
   2\. Add the module to your `config/config.js` file (see below for details).
 
@@ -29,7 +27,7 @@ Then, add it to the modules array in the `config/config.js` file:
 var config = {
     modules: [
         {
-            module: 'MMM-IMDBComingSoon',
+            module: 'MMM-IMDBMovies',
             position: 'top_left',
             header: "Coming Soon",
             config: {
