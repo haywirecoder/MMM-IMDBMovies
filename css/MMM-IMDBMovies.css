@@ -1,1 +1,143 @@
+.MMM-IMDBMovies .title{
+	text-transform: uppercase;
+	font-size: 18px;
+    color: rgb(255, 255, 255);
+	font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+	font-weight: 500;
+}
 
+.MMM-IMDBMovies .background {
+    background-size: cover;
+    background-position: center center;
+    filter: blur(16px) opacity(20%) grayscale(33%);
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:0;
+}
+
+.MMM-IMDBMovies .foreground {
+   
+    width: 415px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    position:relative;
+    filter:none;
+    top:0;
+    left:0;
+    padding:5px;
+    box-sizing:border-box
+}
+
+.MMM-IMDBMovies .poster {
+    border-radius: 10px;
+    margin-bottom: 5px;
+     /* background-color:white; */
+    margin-right: 5px;
+    height: 40%;
+    width: 40%;
+    float: left;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
+}
+
+.MMM-IMDBMovies .genre {
+    background-color: #fff;
+    color: #000;
+    border-radius: 3px;
+    padding: 0 2px;
+    margin: 2px;
+    font-size: 14px;
+	font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    overflow: auto;
+}
+
+.MMM-IMDBMovies .rating {
+    background-color: rgb(169,169,169);
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    padding: 0 2px;
+    margin: 2px;
+    font-size: 14px;
+	font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+    width: 40px;
+    overflow: auto;
+}
+
+.MMM-IMDBMovies .float-left {
+   
+    float: left;
+}
+
+.MMM-IMDBMovies .plot {
+	font-weight: 400;
+    word-wrap: break-word;
+    overflow: auto;
+}
+
+.MMM-IMDBMovies .metascore_mixed  {
+
+    vertical-align: middle;
+    text-align: center;
+    color: #fff!important;
+    font-family: Arial,Helvetica,sans-serif;
+    font-style: normal!important;
+    font-weight: bold!important;
+    background-color:  #fc3;
+    border-radius: 3px;
+    padding: 0 2px;
+    margin: 2px;
+    font-size: 12px;
+    overflow: auto;
+}
+
+.MMM-IMDBMovies .metascore_negative {
+
+    vertical-align: middle;
+    text-align: center;
+    color: #fff!important;
+    font-family: Arial,Helvetica,sans-serif;
+    font-style: normal!important;
+    font-weight: bold!important;
+    background-color: #f00;
+    border-radius: 3px;
+    padding: 0 2px;
+    margin: 2px;
+    font-size: 12px;
+    overflow: auto;
+}
+
+.MMM-IMDBMovies .metascore_positive {
+    vertical-align: middle;
+    text-align: center;
+    color: #fff!important;
+    font-family: Arial,Helvetica,sans-serif;
+    font-style: normal!important;
+    font-weight: bold!important;
+    background-color: #6c3;
+    border-radius: 3px;
+    padding: 0 2px;
+    margin: 2px;
+    font-size: 12px;
+    overflow: auto;
+}
+
+
+.MMM-IMDBMovies .metascore_none {
+    vertical-align: middle;
+    text-align: center;
+    color: #fff!important;
+    font-family: Arial,Helvetica,sans-serif;
+    font-style: normal!important;
+    font-weight: bold!important;
+    background-color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 0 2px;
+    margin: 2px;
+    font-size: 12px;
+    overflow: auto;
+}
