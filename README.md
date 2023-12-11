@@ -6,7 +6,7 @@ The `IMDBMovies` module displays all the listed films in IMDBs comming Soon sect
 ## Screenshot
 
 
-![IMDBMovies](/image/screenshot.png?raw=true)
+![IMDBMovies](/images/screenshot.png?raw=true)
 
 ## Installation
 
